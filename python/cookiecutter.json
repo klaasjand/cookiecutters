@@ -1,0 +1,11 @@
+{
+  "project_name": "Python Project",
+  "description": "My Python Project",
+  "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}",
+  "github_user": "klaasjand",
+  "python_version": [
+    "3.15",
+    "3.14",
+    "3.13"
+  ]
+}
