@@ -14,7 +14,7 @@ When you cloned the cookiecutters repo locally:
 nix run nixpkgs#cookiecutter -- /path/to/cookiecutters --directory go
 ```
 
-After opening the folder you may need to run:
+After opening the new project folder you may need to run:
 
 ```sh
 direnv allow
