@@ -14,6 +14,12 @@ When you cloned the cookiecutters repo locally:
 nix run nixpkgs#cookiecutter -- /path/to/cookiecutters --directory go
 ```
 
+After opening the folder you may need to run:
+
+```sh
+direnv allow
+```
+
 On regular systems (with uvx):
 
 NOTE: This does not install your development environment or other requirements,
