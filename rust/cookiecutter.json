@@ -1,0 +1,6 @@
+{
+  "project_name": "Rust Project",
+  "description": "My Rust Project",
+  "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}"
+}
+
