@@ -1,0 +1,11 @@
+{
+  "project_name": "Go Project",
+  "description": "My Go Project",
+  "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}",
+  "github_user": "klaasjand",
+  "go_version": [
+    "1.27",
+    "1.26",
+    "1.25"
+  ]
+}
